@@ -1,7 +1,7 @@
 function cariModus(arr) {
     // you can only write your code here!
     var objList = {}
-    for(i=0; i<arr.length; i++){
+    for(var i=0; i<arr.length; i++){
         if(objList[arr[i]] === undefined){
             objList[arr[i]] = 0
         }
@@ -10,7 +10,7 @@ function cariModus(arr) {
 
     var keys = 0
     var values = 0
-    for(i=0; i<Object.keys(objList).length; i++){
+    for(var i=0; i<Object.keys(objList).length; i++){
         if(values < Object.values(objList)[i]){
             values = Object.values(objList)[i]
             keys = Object.keys(objList)[i]

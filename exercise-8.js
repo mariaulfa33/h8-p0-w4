@@ -1,7 +1,7 @@
 function tukarBesarKecil(kalimat) {
     // you can only write your code here!
     var result = ''
-    for(i=0; i<kalimat.length; i++){
+    for(var i=0; i<kalimat.length; i++){
       if(kalimat[i] === kalimat[i].toUpperCase()){
         result  += kalimat[i].toLowerCase()
       }else if(kalimat[i] === kalimat[i].toLowerCase()){

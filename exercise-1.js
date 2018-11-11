@@ -1,6 +1,6 @@
 function angkaPrima(angka) {
     // you can only write your code here!
-    for(i=2; i<angka; i++){
+    for(var i=2; i<angka; i++){
         if(angka % i === 0){
             return false
         }

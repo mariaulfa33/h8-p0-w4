@@ -1,6 +1,6 @@
 function checkAB(num) {
     // you can only write your code here!
-    for(i=0; i<num.length; i++){
+    for(var i=0; i<num.length; i++){
         if (num[i] === 'a' && num[i+4] === 'b'){
             return true
         } else if (num[i] === 'b' && num[i+4] === 'a'){
